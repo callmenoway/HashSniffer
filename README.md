@@ -1,8 +1,7 @@
-# Password stealing project
-$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
+# $${\color{white}Password \space \color{red}Stealing \space \color{white}Project}$$
 Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete wifi comune a 2.4GHz. Questo progetto nasce solo ed esclusivamente a scopo informativo e vi invitiamo a replicare il progetto con reti create da voi per verificarne le vulnerabilità.
 
-## $${\color{red}Listening wifi}$$
+## $${\color{green}Listening \space wifi}$$
 
 Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato.
 Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
