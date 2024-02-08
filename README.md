@@ -8,7 +8,7 @@ Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https:/
 Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
 ```bash
 ┌(root💀kali)-[~]
-|
+│
 ┕$ iwconfig
 ```
 <p align="center">
