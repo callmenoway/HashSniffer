@@ -2,7 +2,7 @@
 $${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete wifi comune a 2.4GHz. Questo progetto nasce solo ed esclusivamente a scopo informativo e vi invitiamo a replicare il progetto con reti create da voi per verificarne le vulnerabilità.
 
-## Listening wifi
+## $${\color{red}Listening wifi}$$
 
 Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato.
 Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
@@ -17,7 +17,7 @@ Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
 Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti: <br>
 
 ```bash
-┌($${\color{red}root💀kali}$$)-[~]
+┌(root💀kali)-[~]
 │
 ┕$ sudo airomon-ng start wlan
 ```
