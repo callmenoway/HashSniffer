@@ -6,7 +6,7 @@ Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete 
 
 Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato.
 Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
-```ansi
+```bash
 root💀kali:~# iwconfig
 ```
 <p align="center">
