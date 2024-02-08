@@ -17,7 +17,7 @@ Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
 Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti: <br>
 
 ```bash
-┌($${\color{red}root💀kali)-[~]
+┌($${\color{red}root💀kali}$$)-[~]
 │
 ┕$ sudo airomon-ng start wlan
 ```
