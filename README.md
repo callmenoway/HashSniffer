@@ -62,5 +62,5 @@ Il tempo di decriptazione può variare in base alla difficoltà della password.
 
 ## Tools
 [Flipper Zero](https://flipperzero.one/) accoppiato con [ESP32](https://en.wikipedia.org/wiki/ESP32). <br>
-Degno sostituto [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
-Tool usato per condividere lo schermo in rete locale[Live-ScreenShare](https://github.com/callmenoway/Live-ScreenShare)
+Deauther più economico [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
+Tool usato per condividere lo schermo in rete locale [Live-ScreenShare](https://github.com/callmenoway/Live-ScreenShare)
