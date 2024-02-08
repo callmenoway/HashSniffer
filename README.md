@@ -42,7 +42,7 @@ Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il
 ┕$ sudo airodump-ng -canale -w NomeFile -d BSSID wlan0mon
 ```
 In questo modo stiamo verificando solo la rete in questione.
-## Deauth attack
+## $${\color{green}Deauth \space \color{red} Attack}$$
 Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...).
 Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.
 <p align="center">
@@ -71,7 +71,7 @@ Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handsh
 </p>
 Il tempo di decriptazione può variare in base alla difficoltà della password.
 
-## Tools
+## $${\color{orange}Tools}$$
 [Flipper Zero](https://flipperzero.one/) accoppiato con [ESP32](https://en.wikipedia.org/wiki/ESP32). <br>
 Deauther più economico [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
 Tool usato per condividere lo schermo in rete locale [Live-ScreenShare](https://github.com/callmenoway/Live-ScreenShare)
