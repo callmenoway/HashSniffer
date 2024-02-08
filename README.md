@@ -58,7 +58,9 @@ Attacco deauth integrato <br>
 <p align="center">
   <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418616627231/5.png?ex=65d7a2e2&is=65c52de2&hm=f9644f3e6bb8f83eaf5c1015c61aa207a690676337c5b10d5e45bde5d71091d4&">
 </p>
-## WPA handshake decrypt
+
+## $${\color{white}WPA \space \color{green}handshake \space \color{red}decrypt}$$
+
 Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handshake. Se non compare continuiamo l'attacco in modo che il dispositivo si ricolleghi. Una volta trovato il WPA handshake nella cartella locale troveremo dei file "NomeFile" che contengono tutte le informazioni che ci servono sulla rete. Per eseguire la decriptazione della password del wifi necessitiamo di un file che contenga molte password da provare sul file criptato. Per iniziare la decriptazione: <br>
 
 ```bash
