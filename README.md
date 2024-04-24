@@ -11,7 +11,7 @@ Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
 ┕$ iwconfig
 ```
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236414799806484/1.png?ex=65d7a2e1&is=65c52de1&hm=efddbf203bfb5a72ed726fb09f1d7ef179bfdfb0abc165da05397ee78f9615e9&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236414799806484/1.png?ex=662a08a1&is=6628b721&hm=e96abaa749a864390b4ee13873ab9c7a1281f3e3bb0677c5987b5c31a8c553a6&=&format=webp&quality=lossless">
 </p>
 Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti: <br>
 
