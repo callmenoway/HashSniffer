@@ -32,7 +32,7 @@ Successivamente per visualizzare tutte le reti disponibili: <br>
 ```
 <br>
 <p align="center">
-  <img src="https://cdn.discordapp.com/attachments/894962833773711380/1205236418327089172/4.png?ex=65d7a2e2&is=65c52de2&hm=f3a07c39e30e47b8ff61a4d6462ff30ecdab02777c04ae4f9481e96146d5263f&">
+  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418327089172/4.png?ex=662a08a2&is=6628b722&hm=ac028cd41dede47486ad5a29ee4992038cc01512a386566eb3c6411157ca3487&=&format=webp&quality=lossless">
 </p>
 Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il comando:
 
@@ -46,7 +46,7 @@ In questo modo stiamo verificando solo la rete in questione.
 Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...).
 Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418327089172/4.png?ex=662a08a2&is=6628b722&hm=ac028cd41dede47486ad5a29ee4992038cc01512a386566eb3c6411157ca3487&=&format=webp&quality=lossless">
+  <img src="">
 </p>
 Attacco deauth integrato <br>
 
