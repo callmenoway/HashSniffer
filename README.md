@@ -44,11 +44,12 @@ Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il
 In questo modo stiamo verificando solo la rete in questione.
 ## $${\color{green}Deauth \space \color{red} Attack}$$
 Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...).
-Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.
+Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco. <br> <br>
+Deauth attack con Flipper Zero:
 <p align="center">
-  <img src="">
+  <img src="img/flipper.jpg" width=300px>
 </p>
-Attacco deauth integrato <br>
+Attacco deauth integrato tramite il comando: <br>
 
 ```bash
 ┌(root💀kali)-[~]
@@ -75,5 +76,5 @@ Il tempo di decriptazione può variare in base alla difficoltà della password e
 
 ## $${\color{orange}Tools}$$
 [Flipper Zero](https://flipperzero.one/) accoppiato con [ESP32](https://en.wikipedia.org/wiki/ESP32). <br>
-Deauther più economico [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
+Deauther fai da te [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
 Tool usato per condividere lo schermo in rete locale [Live-ScreenShare](https://github.com/callmenoway/Live-ScreenShare)
