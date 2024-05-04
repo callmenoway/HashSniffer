@@ -1,5 +1,25 @@
 #!/bin/bash
 
+loading_icon() {
+    for ((i=1; i<=3; i++)); do
+        clear
+        echo '—'
+        sleep 0.2
+
+        clear
+        echo "\\"
+        sleep 0.2
+
+        clear
+        echo '|'
+        sleep 0.2
+
+        clear
+        echo '/'
+        sleep 0.2
+    done
+}
+
 print_menu() {
     echo "Seleziona un'opzione:"
     echo "  1. Visualizza le schede di rete"
@@ -57,7 +77,7 @@ execute_command() {
 
 while true; do
     clear
-    intro_animation
+    loading_icon 10 "Caricamento "
     clear
     print_menu
     read -p "Scelta: " choice
