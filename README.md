@@ -18,7 +18,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo airomon-ng start wlan
+┕$ sudo airomon-ng start <YOURE WIRELESS EXTENSION>
 ```
 <p align="center">
   <img src="img/2.png">
