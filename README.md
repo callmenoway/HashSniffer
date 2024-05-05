@@ -16,7 +16,6 @@ $ chmod +x hashsniffer.sh
 $ ./hashsniffer.sh
 ```
 
-
 ## $${\color{green}Guida \space manuale}$$
 
 Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato.
@@ -34,7 +33,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo airomon-ng start <YOURE WIRELESS EXTENSION>
+┕$ sudo airomon-ng start [YOUR NETWORK]
 ```
 <p align="center">
   <img src="img/2.png">
