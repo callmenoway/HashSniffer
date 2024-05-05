@@ -4,5 +4,7 @@
 
 ## 📡 Hash Sniffer <a href="#hashsniffer" id="hashsniffer"></a>
 
-* [Main](hashsniffer/readme.md)
-* [📝 Script](hashsniffer/script.md)
+* [Introduction](hashsniffer/introduction.md)
+* [Usage](hashsniffer/usage/README.md)
+  * [Script](hashsniffer/usage/script.md)
+  * [Manual Guide](hashsniffer/usage/manual-guide.md)
