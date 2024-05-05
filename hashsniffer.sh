@@ -1,7 +1,4 @@
-#!/bin/bash
-
 loading_icon() {
-
     for ((i=1; i<=2; i++)); do
         clear
         echo '
