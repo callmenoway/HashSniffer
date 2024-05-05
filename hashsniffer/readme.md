@@ -33,7 +33,7 @@ Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https:/
 
 <div align="center">
 
-<img src="../img/1.png" alt="">
+<img src="../.gitbook/assets/1.png" alt="">
 
 </div>
 
@@ -48,7 +48,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 
 <div align="center">
 
-<img src="../img/2.png" alt="">
+<img src="../.gitbook/assets/2.png" alt="">
 
 </div>
 
@@ -66,7 +66,7 @@ Successivamente per visualizzare tutte le reti disponibili:\
 
 <div align="center">
 
-<img src="../img/4.png" alt="">
+<img src="../.gitbook/assets/4.png" alt="">
 
 </div>
 
@@ -88,7 +88,7 @@ Deauth attack con Flipper Zero:
 
 <div align="center">
 
-<img src="../img/flipper.jpg" alt="" width="300">
+<img src="../.gitbook/assets/flipper.jpg" alt="" width="300">
 
 </div>
 
@@ -103,7 +103,7 @@ Attacco deauth integrato tramite il comando:\
 
 <div align="center">
 
-<img src="../img/5.png" alt="">
+<img src="../.gitbook/assets/5.png" alt="">
 
 </div>
 
@@ -120,7 +120,7 @@ Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handsh
 
 <div align="center">
 
-<img src="../img/6.png" alt="">
+<img src="../.gitbook/assets/6.png" alt="">
 
 </div>
 
