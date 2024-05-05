@@ -1,7 +1,23 @@
-# $${\color{white}Password \space \color{red}Stealing \space \color{white}Project}$$
+# $${\color{white}Hash \space \color{red}Sniffer}$$
 Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete wifi comune a 2.4GHz. Questo progetto nasce solo ed esclusivamente a scopo informativo e vi invitiamo a replicare il progetto con reti create da voi per verificarne le vulnerabilità.
 
-## $${\color{green}Listening \space wifi}$$
+Per seguire questa semplificare i vari comandi di testing, abbiamo creato un tool da eseguire in shell linux. Nella guida troverete sia come usare il tool che i comandi da eseguire manualmente. Ricordiamo inoltre che il tool è completamente source code.
+
+## $${\color{aqua}Automated \space script}$$
+
+Iniziamo scaricando la repo in locale:
+```bash
+$ git clone https://github.com/callmenoway/HashSniffer.git
+$ cd HashSniffer
+```
+Successivamente eseguiamo il tool:
+```bash
+$ chmod +x hashsniffer.sh
+$ ./hashsniffer.sh
+```
+
+
+## $${\color{green}Guida \space manuale}$$
 
 Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato.
 Iniziamo aprendo un terminale e seguendo i seguenti comandi: <br>
@@ -76,5 +92,5 @@ Il tempo di decriptazione può variare in base alla difficoltà della password e
 
 ## $${\color{orange}Tools}$$
 [Flipper Zero](https://flipperzero.one/) accoppiato con [ESP32](https://en.wikipedia.org/wiki/ESP32). <br>
-Deauther fai da te [Marauder](https://github.com/justcallmekoko/ESP32Marauder) sempre con base ESP32. <br>
+Deauther fai da te: [Marauder](https://github.com/justcallmekoko/ESP32Marauder). <br>
 Tool usato per condividere lo schermo in rete locale [Live-ScreenShare](https://github.com/callmenoway/Live-ScreenShare)
