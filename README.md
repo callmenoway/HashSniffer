@@ -6,7 +6,7 @@ Per seguire questa semplificare i vari comandi di testing, abbiamo creato un too
 
 ## $${\color{aqua}Automated \space script}$$
 
-Iniziamo scaricando la repo in locale:
+Iniziamo scaricando la repository in locale:
 
 ```bash
 $ git clone https://github.com/callmenoway/HashSniffer.git
@@ -22,7 +22,7 @@ $ ./hashsniffer.sh
 
 ## $${\color{green}Guida \space manuale}$$
 
-Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato. Iniziamo aprendo un terminale e seguendo i seguenti comandi:\
+Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato. Iniziamo aprendo un terminale e seguendo i seguenti comandi:
 
 
 ```bash
@@ -37,7 +37,7 @@ Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https:/
 
 </div>
 
-Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti:\
+Una volta eseguito il comando ci usciranno tutte le schede internet che possediamo sulla macchina. Per iniziare creiamo una scheda parallela virtuale per iniziare il listening delle reti:
 
 
 ```bash
@@ -52,7 +52,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 
 </div>
 
-Successivamente per visualizzare tutte le reti disponibili:\
+Successivamente per visualizzare tutte le reti disponibili:
 
 
 ```bash
@@ -82,8 +82,8 @@ In questo modo stiamo verificando solo la rete in questione.
 
 ## $${\color{green}Deauth \space \color{red} Attack}$$
 
-Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi\_deauthentication\_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...). Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.\
-\
+Una volta che siamo in listening wifi possiamo procedere con il [Deauth Attack](https://en.wikipedia.org/wiki/Wi-Fi\_deauthentication\_attack) (Oggi useremo il Flipper Zero ma ci sono altre alternative come ESP32 Marauder ecc...). Iniziamo facendo una scansione delle reti, selezioniamo la rete in questione e iniziamo l'attacco.
+
 Deauth attack con Flipper Zero:
 
 <div align="center">
@@ -92,7 +92,7 @@ Deauth attack con Flipper Zero:
 
 </div>
 
-Attacco deauth integrato tramite il comando:\
+Attacco deauth integrato tramite il comando:
 
 
 ```bash
@@ -109,7 +109,7 @@ Attacco deauth integrato tramite il comando:\
 
 ## $${\color{white}WPA \space \color{green}handshake \space \color{red}decrypt}$$
 
-Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handshake. Se non compare continuiamo l'attacco in modo che il dispositivo si ricolleghi. Una volta trovato il WPA handshake nella cartella locale troveremo dei file "NomeFile" che contengono tutte le informazioni che ci servono sulla rete. Per eseguire la decriptazione della password del wifi necessitiamo di un file che contenga molte password da provare sul file criptato. Per iniziare la decriptazione:\
+Una volta effettuato l'attacco sul terminale linux dovremo trovare un WPA handshake. Se non compare continuiamo l'attacco in modo che il dispositivo si ricolleghi. Una volta trovato il WPA handshake nella cartella locale troveremo dei file "NomeFile" che contengono tutte le informazioni che ci servono sulla rete. Per eseguire la decriptazione della password del wifi necessitiamo di un file che contenga molte password da provare sul file criptato. Per iniziare la decriptazione:
 
 
 ```bash
