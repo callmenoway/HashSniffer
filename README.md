@@ -1,5 +1,4 @@
-# HASH SNIFFER
-
+# $${\color{aqua}HASH \space SNIFFER}$$
 Il nostro progetto è stato quello di evidenziare le vulnerabilità di una rete wifi comune a 2.4GHz. Questo progetto nasce solo ed esclusivamente a scopo informativo e vi invitiamo a replicare il progetto con reti create da voi per verificarne le vulnerabilità.
 
 Per seguire questa guida e semplificare i vari comandi di testing, abbiamo creato un tool da eseguire in shell linux. Nella guida troverete sia come usare il tool che i comandi da eseguire manualmente. Ricordiamo inoltre che il tool è completamente source code. Per eseguire seguire la guida è richiesto un OS Linux con [aircrack-ng](https://www.aircrack-ng.org/) installato (su Kali è preinstallato).
